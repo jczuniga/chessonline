@@ -1,0 +1,142 @@
+2019-06-30 15:12:35,610:__main__: INFO : Trying to import pygame
+2019-06-30 15:15:46,337:__main__: INFO : Trying to import pygame
+2019-06-30 15:15:46,337:__main__: INFO : Success..
+2019-06-30 15:15:46,337:__main__: INFO : Running game..
+2019-06-30 15:16:35,522:__main__: WARNING : Trying to import pygame
+2019-06-30 15:16:35,522:__main__: INFO : Success..
+2019-06-30 15:16:35,523:__main__: INFO : Pygame not installed
+2019-06-30 15:16:59,482:__main__: INFO : Pip not installed on system
+2019-06-30 15:16:59,482:__main__: INFO : Trying to install Pip..
+2019-06-30 15:17:02,467:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:02,467:__main__: INFO : Success..
+2019-06-30 15:17:02,467:__main__: INFO : Pygame not installed
+2019-06-30 15:17:03,563:__main__: INFO : Pip not installed on system
+2019-06-30 15:17:03,566:__main__: INFO : Trying to install Pip..
+2019-06-30 15:17:04,871:pip._internal.vcs: DEBUG : Registered VCS backend: git
+2019-06-30 15:17:04,873:pip._internal.vcs: DEBUG : Registered VCS backend: hg
+2019-06-30 15:17:04,876:pip._internal.vcs: DEBUG : Registered VCS backend: svn
+2019-06-30 15:17:04,878:pip._internal.vcs: DEBUG : Registered VCS backend: bzr
+2019-06-30 15:17:05,789:pip._internal.configuration: DEBUG : For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
+2019-06-30 15:17:05,790:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\pip\pip.ini'
+2019-06-30 15:17:05,790:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\AppData\Roaming\pip\pip.ini'
+2019-06-30 15:17:05,791:pip._internal.configuration: DEBUG : For variant 'site', will try loading 'C:\Users\JC\Documents\DLSU\machineproject202\mpenv\pip.ini'
+2019-06-30 15:17:05,793:pip._internal.configuration: DEBUG : For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
+2019-06-30 15:17:05,793:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\pip\pip.ini'
+2019-06-30 15:17:05,794:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\AppData\Roaming\pip\pip.ini'
+2019-06-30 15:17:05,795:pip._internal.configuration: DEBUG : For variant 'site', will try loading 'C:\Users\JC\Documents\DLSU\machineproject202\mpenv\pip.ini'
+2019-06-30 15:17:05,795:pip._internal.configuration: DEBUG : For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
+2019-06-30 15:17:05,796:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\pip\pip.ini'
+2019-06-30 15:17:05,796:pip._internal.configuration: DEBUG : For variant 'user', will try loading 'C:\Users\JC\AppData\Roaming\pip\pip.ini'
+2019-06-30 15:17:05,797:pip._internal.configuration: DEBUG : For variant 'site', will try loading 'C:\Users\JC\Documents\DLSU\machineproject202\mpenv\pip.ini'
+2019-06-30 15:17:22,435:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:22,436:__main__: INFO : Success..
+2019-06-30 15:17:22,436:__main__: INFO : Running game..
+2019-06-30 15:17:29,070:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:29,070:__main__: INFO : Success..
+2019-06-30 15:17:29,071:__main__: INFO : Running game..
+2019-06-30 15:17:32,421:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:32,421:__main__: INFO : Success..
+2019-06-30 15:17:32,422:__main__: INFO : Running game..
+2019-06-30 15:17:34,468:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:34,468:__main__: INFO : Success..
+2019-06-30 15:17:34,469:__main__: INFO : Running game..
+2019-06-30 15:17:37,137:__main__: WARNING : Trying to import pygame
+2019-06-30 15:17:37,138:__main__: INFO : Success..
+2019-06-30 15:17:37,138:__main__: INFO : Running game..
+2019-06-30 15:19:04,282:__main__: WARNING : Trying to import pygame
+2019-06-30 15:19:04,282:__main__: INFO : Success..
+2019-06-30 15:19:04,283:__main__: INFO : Running game..
+2019-06-30 15:19:17,781:__main__: WARNING : Trying to import pygame
+2019-06-30 15:19:17,782:__main__: INFO : Success..
+2019-06-30 15:19:17,783:__main__: INFO : Running game..
+2019-06-30 15:20:47,005:__main__: WARNING : Trying to import pygame
+2019-06-30 15:20:47,006:__main__: INFO : Pygame not installed
+2019-06-30 15:20:54,832:__main__: INFO : Trying to install pygame via pip
+2019-06-30 15:21:05,001:__main__: INFO : Pygame has been installed
+2019-06-30 15:21:54,132:__main__: WARNING : Trying to import pygame
+2019-06-30 15:21:54,133:__main__: INFO : Pygame not installed
+2019-06-30 15:22:01,893:__main__: INFO : Trying to install pygame via pip
+2019-06-30 15:22:10,428:__main__: INFO : Pygame has been installed
+2019-06-30 15:31:46,528:__main__: WARNING : Trying to import pygame
+2019-06-30 15:31:46,826:__main__: INFO : Success..
+2019-06-30 15:31:46,827:__main__: INFO : Running game..
+2019-06-30 15:33:02,920:__main__: WARNING : Trying to import pygame
+2019-06-30 15:33:03,082:__main__: INFO : Success..
+2019-06-30 15:33:03,083:__main__: INFO : Running game..
+2019-06-30 15:33:22,095:__main__: WARNING : Trying to import pygame
+2019-06-30 15:33:22,137:__main__: INFO : Success..
+2019-06-30 15:33:22,138:__main__: INFO : Running game..
+2019-06-30 15:34:34,564:__main__: WARNING : Trying to import pygame
+2019-06-30 15:34:34,680:__main__: INFO : Success..
+2019-06-30 15:34:34,681:__main__: INFO : Running game..
+2019-06-30 15:34:47,500:__main__: WARNING : Trying to import pygame
+2019-06-30 15:34:47,597:__main__: INFO : Success..
+2019-06-30 15:34:47,598:__main__: INFO : Running game..
+2019-06-30 15:42:02,761:__main__: WARNING : Trying to import pygame
+2019-06-30 15:42:02,960:__main__: INFO : Success..
+2019-06-30 15:42:02,962:__main__: INFO : Running game..
+2019-06-30 15:42:15,757:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:17,777:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:19,780:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:24,176:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:35,019:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:52,392:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:42:57,095:__main__: WARNING : Trying to import pygame
+2019-06-30 15:42:57,282:__main__: INFO : Success..
+2019-06-30 15:42:57,284:__main__: INFO : Running game..
+2019-06-30 15:43:04,250:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:43:06,283:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:43:08,286:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:43:10,292:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:43:39,629:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:43:43,530:__main__: WARNING : Trying to import pygame
+2019-06-30 15:43:43,573:__main__: INFO : Success..
+2019-06-30 15:43:43,574:__main__: INFO : Running game..
+2019-06-30 15:48:39,102:__main__: WARNING : Trying to import pygame
+2019-06-30 15:48:39,145:__main__: INFO : Success..
+2019-06-30 15:48:39,146:__main__: INFO : Running game..
+2019-06-30 15:48:47,728:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 15:49:12,569:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:00:02,544:__main__: WARNING : Trying to import pygame
+2019-06-30 16:00:02,711:__main__: INFO : Success..
+2019-06-30 16:00:02,712:__main__: INFO : Running game..
+2019-06-30 16:00:17,712:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:00:35,481:__main__: WARNING : Trying to import pygame
+2019-06-30 16:00:35,526:__main__: INFO : Success..
+2019-06-30 16:00:35,526:__main__: INFO : Running game..
+2019-06-30 16:00:57,674:__main__: WARNING : Trying to import pygame
+2019-06-30 16:00:57,722:__main__: INFO : Success..
+2019-06-30 16:00:57,722:__main__: INFO : Running game..
+2019-06-30 16:01:17,680:__main__: WARNING : Trying to import pygame
+2019-06-30 16:01:17,730:__main__: INFO : Success..
+2019-06-30 16:01:17,730:__main__: INFO : Running game..
+2019-06-30 16:01:29,551:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:01:31,618:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:01:32,887:__main__: WARNING : Trying to import pygame
+2019-06-30 16:01:32,934:__main__: INFO : Success..
+2019-06-30 16:01:32,935:__main__: INFO : Running game..
+2019-06-30 16:01:38,579:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:02:42,119:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:02:54,159:__main__: WARNING : Trying to import pygame
+2019-06-30 16:02:54,260:__main__: INFO : Success..
+2019-06-30 16:02:54,260:__main__: INFO : Running game..
+2019-06-30 16:03:09,075:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:03:53,538:__main__: WARNING : Trying to import pygame
+2019-06-30 16:03:53,583:__main__: INFO : Success..
+2019-06-30 16:03:53,584:__main__: INFO : Running game..
+2019-06-30 16:05:42,215:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:08:13,735:__main__: WARNING : Trying to import pygame
+2019-06-30 16:08:13,780:__main__: INFO : Success..
+2019-06-30 16:08:13,780:__main__: INFO : Running game..
+2019-06-30 16:08:31,784:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:15:23,551:__main__: WARNING : Trying to import pygame
+2019-06-30 16:15:23,746:__main__: INFO : Success..
+2019-06-30 16:15:23,748:__main__: INFO : Running game..
+2019-06-30 16:15:39,436:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 16:15:58,385:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 17:12:20,552:__main__: WARNING : Trying to import pygame
+2019-06-30 17:12:20,560:__main__: INFO : Pygame not installed
+2019-06-30 17:12:27,662:__main__: INFO : Trying to install pygame via pip
+2019-06-30 17:12:42,331:__main__: INFO : Pygame has been installed
+2019-06-30 17:12:54,494:__main__: ERROR : Could not connect: Server Offline
+2019-06-30 17:12:56,548:__main__: ERROR : Could not connect: Server Offline
