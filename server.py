@@ -108,10 +108,10 @@ def threaded_client(conn, game, spec=False):
 
                     if data == "winner b":
                         bo.winner = "b"
-                        log.info("Player b won in game", game)
+                        log.info("[RESULT] Player b won in game {}".format(game))
                     if data == "winner w":
                         bo.winner = "w"
-                        log.info("[GAME] Player w won in game", game)
+                        log.info("[RESULT] Player w won in game {}".format(game))
 
                     if data == "update moves":
                         bo.update_moves()

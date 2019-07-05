@@ -2,7 +2,8 @@ import socket
 import pickle
 import time
 
-class Network:
+
+class Network(object):
     def __init__(self):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.host = "localhost"
@@ -40,7 +41,4 @@ class Network:
             except socket.error as e:
                 print(e)
 
-
         return reply
-
-

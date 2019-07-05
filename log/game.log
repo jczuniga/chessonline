@@ -224,3 +224,19 @@
 2019-07-05 21:05:51,493:__main__: INFO : Success..
 2019-07-05 21:05:51,493:__main__: INFO : Running game..
 2019-07-05 21:05:53,389:__main__: INFO : Profile successfully created!
+2019-07-05 21:24:29,090:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 21:53:33,108:__main__: WARNING : Trying to import pygame
+2019-07-05 21:53:33,277:__main__: INFO : Success..
+2019-07-05 21:53:33,278:__main__: INFO : Running game..
+2019-07-05 21:53:34,719:__main__: INFO : Profile successfully created!
+2019-07-05 21:54:14,859:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 22:02:43,066:__main__: WARNING : Trying to import pygame
+2019-07-05 22:02:43,110:__main__: INFO : Success..
+2019-07-05 22:02:43,112:__main__: INFO : Running game..
+2019-07-05 22:02:44,853:__main__: INFO : Profile successfully created!
+2019-07-05 22:02:45,873:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 22:04:03,540:__main__: WARNING : Trying to import pygame
+2019-07-05 22:04:03,586:__main__: INFO : Success..
+2019-07-05 22:04:03,587:__main__: INFO : Running game..
+2019-07-05 22:04:20,917:__main__: INFO : Profile successfully created!
+2019-07-05 22:04:32,802:__main__: ERROR : Could not connect: Server Offline

@@ -1,6 +1,9 @@
 import pygame
 import os
 
+
+# Load images from /img
+
 b_bishop = pygame.image.load(os.path.join("img", "black_bishop.png"))
 b_king = pygame.image.load(os.path.join("img", "black_king.png"))
 b_knight = pygame.image.load(os.path.join("img", "black_knight.png"))
@@ -549,4 +552,3 @@ class Rook(Piece):
                 break
 
         return moves
-

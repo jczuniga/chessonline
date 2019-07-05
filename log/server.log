@@ -58,3 +58,21 @@
 2019-07-05 21:05:54,203:__main__: INFO : [CONNECT] Received connection from 127.0.0.1:56596
 2019-07-05 21:05:54,203:__main__: INFO : [GAME_INFO] Number of Connections: 1
 2019-07-05 21:05:54,204:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 21:24:29,091:__main__: INFO : Game 0 ended
+2019-07-05 21:24:29,092:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-05 21:53:25,887:__main__: INFO : Waiting for a connection...
+2019-07-05 21:53:35,909:__main__: INFO : [CONNECT] New connection
+2019-07-05 21:53:35,909:__main__: INFO : [CONNECT] Received connection from 127.0.0.1:56876
+2019-07-05 21:53:35,910:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-05 21:53:35,910:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 21:54:14,237:__main__: INFO : [RESULT] Player b won in game 0
+2019-07-05 21:54:14,860:__main__: INFO : Game 0 ended
+2019-07-05 21:54:14,860:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-05 22:04:15,148:__main__: INFO : Waiting for a connection...
+2019-07-05 22:04:26,366:__main__: INFO : [CONNECT] New connection
+2019-07-05 22:04:26,367:__main__: INFO : [CONNECT] Received connection from 127.0.0.1:56886
+2019-07-05 22:04:26,368:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-05 22:04:26,369:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 22:04:29,742:__main__: INFO : [RESULT] Player b won in game 0
+2019-07-05 22:04:32,802:__main__: INFO : Game 0 ended
+2019-07-05 22:04:32,803:__main__: INFO : [DISCONNECT] Player JC left game 0

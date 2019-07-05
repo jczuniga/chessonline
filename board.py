@@ -12,6 +12,7 @@ class Board:
     rect = (113, 113, 525, 525)
     startX = rect[0]
     startY = rect[1]
+
     def __init__(self, rows, cols):
         self.rows = rows
         self.cols = cols
@@ -86,11 +87,11 @@ class Board:
             y, x = self.last[0]
             y1, x1 = self.last[1]
 
-            xx = (4 - x) +round(self.startX + (x * self.rect[2] / 8))
+            xx = (4 - x) + round(self.startX + (x * self.rect[2] / 8))
             yy = 3 + round(self.startY + (y * self.rect[3] / 8))
             pygame.draw.circle(win, (0,0,255), (xx+32, yy+30), 34, 4)
             xx1 = (4 - x) + round(self.startX + (x1 * self.rect[2] / 8))
-            yy1 = 3+ round(self.startY + (y1 * self.rect[3] / 8))
+            yy1 = 3 + round(self.startY + (y1 * self.rect[3] / 8))
             pygame.draw.circle(win, (0, 0, 255), (xx1 + 32, yy1 + 30), 34, 4)
 
         s = None
@@ -100,7 +101,6 @@ class Board:
                     self.board[i][j].draw(win, color)
                     if self.board[i][j].isSelected:
                         s = (i, j)
-
 
     def get_danger_moves(self, color):
         danger_moves = []
@@ -138,13 +138,13 @@ class Board:
                         prev = (i, j)
 
         # if piece
-        if self.board[row][col] == 0 and prev!=(-1,-1):
+        if self.board[row][col] == 0 and prev != (-1, -1):
             moves = self.board[prev[0]][prev[1]].move_list
             if (col, row) in moves:
                 changed = self.move(prev, (row, col), color)
 
         else:
-            if prev == (-1,-1):
+            if prev == (-1, -1):
                 self.reset_selected()
                 if self.board[row][col] != 0:
                     self.board[row][col].selected = True
@@ -159,9 +159,9 @@ class Board:
 
                 else:
                     if self.board[row][col].color == color:
-                        #castling
+                        # castling
                         self.reset_selected()
-                        if self.board[prev[0]][prev[1]].moved == False and self.board[prev[0]][prev[1]].rook and self.board[row][col].king and col != prev[1] and prev!=(-1,-1):
+                        if (self.board[prev[0]][prev[1]].moved is False and self.board[prev[0]][prev[1]].rook and self.board[row][col].king and col != prev[1] and prev != (-1, -1)):
                             castle = True
                             if prev[1] < col:
                                 for j in range(prev[1]+1, col):
@@ -170,21 +170,21 @@ class Board:
 
                                 if castle:
                                     changed = self.move(prev, (row, 3), color)
-                                    changed = self.move((row,col), (row, 2), color)
+                                    changed = self.move((row, col), (row, 2), color)
                                 if not changed:
                                     self.board[row][col].selected = True
 
                             else:
-                                for j in range(col+1,prev[1]):
+                                for j in range(col+1, prev[1]):
                                     if self.board[row][j] != 0:
                                         castle = False
 
                                 if castle:
                                     changed = self.move(prev, (row, 6), color)
-                                    changed = self.move((row,col), (row, 5), color)
+                                    changed = self.move((row, col), (row, 5), color)
                                 if not changed:
                                     self.board[row][col].selected = True
-                            
+
                         else:
                             self.board[row][col].selected = True
 
@@ -202,6 +202,11 @@ class Board:
                 if self.board[i][j] != 0:
                     self.board[i][j].selected = False
 
+    '''
+    Not yet implemented
+        # To be implemented in the next iteration together with
+            # enrook()
+    '''
     def check_mate(self, color):
         '''if self.is_checked(color):
             king = None
@@ -222,6 +227,12 @@ class Board:
                         danger_count += 1
                 return danger_count == len(valid_moves)'''
 
+        return False
+
+    def enrook(self, color):
+        '''
+        if self.is_checked(color)
+        '''
         return False
 
     def move(self, start, end, color):
@@ -259,6 +270,3 @@ class Board:
             self.startTime = time.time()
 
         return changed
-
-
-
