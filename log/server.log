@@ -1,0 +1,60 @@
+2019-07-05 19:43:18,513:__main__: INFO : Waiting for a connection...
+2019-07-05 19:43:29,786:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:47:28,377:__main__: INFO : Waiting for a connection...
+2019-07-05 19:47:45,656:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:49:03,522:__main__: INFO : Waiting for a connection...
+2019-07-05 19:49:08,818:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:49:08,828:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 19:50:12,546:__main__: INFO : Waiting for a connection...
+2019-07-05 19:50:17,487:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:51:41,177:__main__: INFO : Waiting for a connection...
+2019-07-05 19:51:45,494:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:52:03,682:__main__: INFO : Waiting for a connection...
+2019-07-05 19:52:08,703:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:54:44,980:__main__: INFO : Waiting for a connection...
+2019-07-05 19:54:49,278:__main__: INFO : [CONNECT] New connection
+2019-07-05 19:54:49,279:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-05 19:54:49,279:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 20:58:07,410:__main__: INFO : Waiting for a connection...
+2019-07-05 20:58:25,798:__main__: INFO : [CONNECT] New connection
+2019-07-05 20:58:25,799:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-05 20:58:25,800:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-05 20:58:25,941:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:25,942:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:25,943:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:25,944:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:28,223:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:28,224:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:30,503:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:30,504:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:32,789:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:32,790:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:35,042:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:35,043:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:37,328:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:37,329:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:39,599:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:39,599:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:41,938:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:41,939:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:44,234:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:44,234:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:46,478:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:46,479:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:48,726:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:48,726:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:51,047:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:51,048:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:53,354:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:53,354:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:55,646:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:55,646:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:58:57,897:__main__: INFO : Received board from w in game 0
+2019-07-05 20:58:57,898:__main__: INFO : Sending board to player w in game 0
+2019-07-05 20:59:00,188:__main__: INFO : Received board from w in game 0
+2019-07-05 20:59:00,188:__main__: INFO : Sending board to player w in game 0
+2019-07-05 21:05:49,918:__main__: INFO : Waiting for a connection...
+2019-07-05 21:05:54,202:__main__: INFO : [CONNECT] New connection
+2019-07-05 21:05:54,203:__main__: INFO : [CONNECT] Received connection from 127.0.0.1:56596
+2019-07-05 21:05:54,203:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-05 21:05:54,204:__main__: INFO : [GAME_INFO] Number of Games: 1

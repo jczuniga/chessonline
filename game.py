@@ -1,15 +1,10 @@
 import get_pip
 import logging
-
-import random
 import subprocess
 import sys
-
-
 import os
 import time
 from client import Network
-import pickle
 
 # Basic logging configuration
 
@@ -34,12 +29,13 @@ log = logging.getLogger(__name__)
 def install(package):
     subprocess.call([sys.executable, "-m", "pip", "install", package])
 
+
 try:
     log.warning("Trying to import pygame")
     import pygame
     log.info("Success..")
     log.info("Running game..")
-except:
+except Exception:
     log.info("Pygame not installed")
 
     try:
@@ -57,7 +53,7 @@ except:
                 log.info("Pygame library required to play game. Exiting...")
                 sys.exit(0)
 
-    except:
+    except Exception:
         log.info("Pip not installed on system")
         log.info("Trying to install Pip..")
         get_pip.main()
@@ -68,7 +64,7 @@ except:
             import pip
             install("pygame")
             log.info("Pygame has been installed")
-        except:
+        except Exception:
             log.info("Pygame could not be installed")
             sys.exit(0)
 
@@ -76,27 +72,32 @@ import pygame
 
 pygame.font.init()
 
-board = pygame.transform.scale(pygame.image.load(os.path.join("img","board_alt.png")), (750, 750))
+board = pygame.transform.scale(pygame.image.load(os.path.join(
+        "img", "board_alt.png")),
+        (750, 750)
+        )
 chessbg = pygame.image.load(os.path.join("img", "chessbg.png"))
-rect = (113,113,525,525)
+rect = (113, 113, 525, 525)
 
 turn = "w"
 
 
-# Rendering is defined in by RGB color picker 
-#   i.e White (255,255,255)
+# Rendering is defined by RGB color picker
+#   i.e: White (255,255,255)
 
 def menu_screen(win, name):
-    global bo, chessbg 
+    global bo, chessbg
     run = True
     offline = False
 
     while run:
-        win.blit(chessbg, (0,0))
+        win.blit(chessbg, (0, 0))
         small_font = pygame.font.SysFont("comicsans", 50)
-        
+
         if offline:
-            off = small_font.render("Server Offline, Try Again Later...", 1, (255, 0, 0))
+            off = small_font.render(
+                "Server Offline, Try Again Later...", 1, (255, 0, 0)
+                )
             win.blit(off, (width / 2 - off.get_width() / 2, 500))
 
         pygame.display.update()
@@ -113,30 +114,40 @@ def menu_screen(win, name):
                     run = False
                     main()
                     break
-                except:
+                except Exception:
                     log.error("Could not connect: Server Offline")
                     offline = True
 
 
-    
+'''
+Pygame UI Rendering configuration
+    In full accordance with pygame code conventions
+        w
+'''
+
+
 def redraw_gameWindow(win, bo, p1, p2, color, ready):
     win.blit(board, (0, 0))
     bo.draw(win, color)
 
-    formatTime1 = str(int(p1//60)) + ":" + str(int(p1%60))
+    formatTime1 = str(int(p1//60)) + ":" + str(int(p1 % 60))
     formatTime2 = str(int(p2 // 60)) + ":" + str(int(p2 % 60))
-    if int(p1%60) < 10:
+    if int(p1 % 60) < 10:
         formatTime1 = formatTime1[:-1] + "0" + formatTime1[-1]
-    if int(p2%60) < 10:
+    if int(p2 % 60) < 10:
         formatTime2 = formatTime2[:-1] + "0" + formatTime2[-1]
 
     font = pygame.font.SysFont("comicsans", 30)
     try:
-        txt = font.render(bo.p1Name + "\'s Time: " + str(formatTime2), 1, (255, 255, 255))
-        txt2 = font.render(bo.p2Name + "\'s Time: " + str(formatTime1), 1, (255,255,255))
+        txt = font.render(
+            bo.p1Name + "\'s Time: " + str(formatTime2), 1, (255, 255, 255)
+            )
+        txt2 = font.render(
+            bo.p2Name + "\'s Time: " + str(formatTime1), 1, (255, 255, 255)
+            )
     except Exception as e:
-        print(e)
-    win.blit(txt, (520,10))
+        log.error(e)
+    win.blit(txt, (520, 10))
     win.blit(txt2, (520, 700))
 
     txt = font.render("Press q to Quit", 1, (255, 255, 255))
@@ -176,7 +187,7 @@ def redraw_gameWindow(win, bo, p1, p2, color, ready):
 def end_screen(win, text):
     pygame.font.init()
     font = pygame.font.SysFont("comicsans", 80)
-    txt = font.render(text,1, (255,0,0))
+    txt = font.render(text, 1, (255, 0, 0))
     win.blit(txt, (width / 2 - txt.get_width() / 2, 300))
     pygame.display.update()
 
@@ -212,6 +223,8 @@ def click(pos):
 
     return -1, -1
 
+# Client connect
+
 
 def connect():
     global n
@@ -219,6 +232,8 @@ def connect():
     return n.board
 
 # Main
+
+
 def main():
     global turn, bo, name
 
@@ -244,7 +259,7 @@ def main():
         try:
             redraw_gameWindow(win, bo, p1Time, p2Time, color, bo.ready)
         except Exception as e:
-            print(e)
+            log.error(e)
             end_screen(win, "Other player left")
             run = False
             break
@@ -287,22 +302,23 @@ def main():
                 if event.key == pygame.K_LEFT:
                     bo = n.send("back")
 
-
             if event.type == pygame.MOUSEBUTTONUP and color != "s":
                 if color == bo.turn and bo.ready:
                     pos = pygame.mouse.get_pos()
                     bo = n.send("update moves")
                     i, j = click(pos)
                     bo = n.send("select " + str(i) + " " + str(j) + " " + color)
-    
+
     n.disconnect()
     bo = 0
     menu_screen(win)
 
+
 if __name__ == '__main__':
     name = input("Please type your name: ")
-    width = 750
-    height = 750
+    log.info("Profile successfully created!")
+    width = 750  # log-in UI display width
+    height = 750  # log-in UI display height
     win = pygame.display.set_mode((width, height))
     pygame.display.set_caption("Chess Game")
     menu_screen(win, name)

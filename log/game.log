@@ -140,3 +140,87 @@
 2019-06-30 17:12:42,331:__main__: INFO : Pygame has been installed
 2019-06-30 17:12:54,494:__main__: ERROR : Could not connect: Server Offline
 2019-06-30 17:12:56,548:__main__: ERROR : Could not connect: Server Offline
+2019-07-02 17:57:38,444:__main__: WARNING : Trying to import pygame
+2019-07-02 17:57:38,449:__main__: INFO : Pygame not installed
+2019-07-02 17:57:44,036:__main__: INFO : Pygame library required to play game. Exiting...
+2019-07-02 17:57:44,037:__main__: INFO : Pip not installed on system
+2019-07-02 17:57:44,038:__main__: INFO : Trying to install Pip..
+2019-07-02 17:58:20,050:__main__: WARNING : Trying to import pygame
+2019-07-02 17:58:20,055:__main__: INFO : Pygame not installed
+2019-07-02 17:58:28,501:__main__: INFO : Trying to install pygame via pip
+2019-07-02 17:59:06,574:__main__: INFO : Pygame has been installed
+2019-07-02 17:59:37,310:__main__: ERROR : Could not connect: Server Offline
+2019-07-02 18:00:04,230:__main__: ERROR : Could not connect: Server Offline
+2019-07-02 18:01:58,873:__main__: WARNING : Trying to import pygame
+2019-07-02 18:02:00,050:__main__: INFO : Success..
+2019-07-02 18:02:00,052:__main__: INFO : Running game..
+2019-07-02 18:02:17,636:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 18:39:40,385:__main__: WARNING : Trying to import pygame
+2019-07-05 18:39:42,885:__main__: INFO : Success..
+2019-07-05 18:39:42,886:__main__: INFO : Running game..
+2019-07-05 18:52:08,384:__main__: WARNING : Trying to import pygame
+2019-07-05 18:52:08,431:__main__: INFO : Success..
+2019-07-05 18:52:08,431:__main__: INFO : Running game..
+2019-07-05 18:52:15,457:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 18:52:30,984:__main__: WARNING : Trying to import pygame
+2019-07-05 18:52:31,031:__main__: INFO : Success..
+2019-07-05 18:52:31,031:__main__: INFO : Running game..
+2019-07-05 19:00:35,883:__main__: WARNING : Trying to import pygame
+2019-07-05 19:00:35,930:__main__: INFO : Success..
+2019-07-05 19:00:35,930:__main__: INFO : Running game..
+2019-07-05 19:00:48,017:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:03:35,977:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:43:24,696:__main__: WARNING : Trying to import pygame
+2019-07-05 19:43:24,727:__main__: INFO : Success..
+2019-07-05 19:43:24,727:__main__: INFO : Running game..
+2019-07-05 19:44:04,859:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:47:34,576:__main__: WARNING : Trying to import pygame
+2019-07-05 19:47:34,607:__main__: INFO : Success..
+2019-07-05 19:47:34,607:__main__: INFO : Running game..
+2019-07-05 19:48:35,598:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:49:06,633:__main__: WARNING : Trying to import pygame
+2019-07-05 19:49:06,680:__main__: INFO : Success..
+2019-07-05 19:49:06,680:__main__: INFO : Running game..
+2019-07-05 19:49:19,511:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:50:14,399:__main__: WARNING : Trying to import pygame
+2019-07-05 19:50:14,446:__main__: INFO : Success..
+2019-07-05 19:50:14,446:__main__: INFO : Running game..
+2019-07-05 19:50:17,495:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:50:20,181:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:50:35,608:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:51:43,205:__main__: WARNING : Trying to import pygame
+2019-07-05 19:51:43,247:__main__: INFO : Success..
+2019-07-05 19:51:43,247:__main__: INFO : Running game..
+2019-07-05 19:51:45,498:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:52:05,446:__main__: WARNING : Trying to import pygame
+2019-07-05 19:52:05,477:__main__: INFO : Success..
+2019-07-05 19:52:05,477:__main__: INFO : Running game..
+2019-07-05 19:52:08,708:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 19:54:47,276:__main__: WARNING : Trying to import pygame
+2019-07-05 19:54:47,322:__main__: INFO : Success..
+2019-07-05 19:54:47,322:__main__: INFO : Running game..
+2019-07-05 19:55:13,885:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 20:22:31,655:__main__: WARNING : Trying to import pygame
+2019-07-05 20:22:31,701:__main__: INFO : Success..
+2019-07-05 20:22:31,701:__main__: INFO : Running game..
+2019-07-05 20:22:40,925:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 20:23:17,479:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 20:23:23,829:__main__: WARNING : Trying to import pygame
+2019-07-05 20:23:23,946:__main__: INFO : Success..
+2019-07-05 20:23:23,946:__main__: INFO : Running game..
+2019-07-05 20:23:28,582:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 20:25:18,935:__main__: WARNING : Trying to import pygame
+2019-07-05 20:25:19,017:__main__: INFO : Success..
+2019-07-05 20:25:19,018:__main__: INFO : Running game..
+2019-07-05 20:25:30,416:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 20:25:34,920:__main__: INFO : Profile successfully created!
+2019-07-05 20:58:16,961:__main__: WARNING : Trying to import pygame
+2019-07-05 20:58:17,130:__main__: INFO : Success..
+2019-07-05 20:58:17,131:__main__: INFO : Running game..
+2019-07-05 20:58:22,747:__main__: INFO : Profile successfully created!
+2019-07-05 20:59:07,431:__main__: ERROR : 'bytes' object has no attribute 'ready'
+2019-07-05 20:59:07,442:__main__: ERROR : Could not connect: Server Offline
+2019-07-05 21:05:51,450:__main__: WARNING : Trying to import pygame
+2019-07-05 21:05:51,493:__main__: INFO : Success..
+2019-07-05 21:05:51,493:__main__: INFO : Running game..
+2019-07-05 21:05:53,389:__main__: INFO : Profile successfully created!
