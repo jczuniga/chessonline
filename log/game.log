@@ -240,3 +240,150 @@
 2019-07-05 22:04:03,587:__main__: INFO : Running game..
 2019-07-05 22:04:20,917:__main__: INFO : Profile successfully created!
 2019-07-05 22:04:32,802:__main__: ERROR : Could not connect: Server Offline
+2019-07-08 20:51:28,829:__main__: WARNING : Trying to import pygame
+2019-07-08 20:51:28,853:__main__: INFO : Pygame not installed
+2019-07-08 20:51:37,305:__main__: INFO : Pygame library required to play game. Exiting...
+2019-07-08 21:38:27,299:__main__: WARNING : Trying to import pygame
+2019-07-08 21:38:32,532:__main__: INFO : Success..
+2019-07-08 21:38:32,533:__main__: INFO : Running game..
+2019-07-08 21:38:35,147:__main__: INFO : Profile successfully created!
+2019-07-08 21:38:38,980:__main__: ERROR : Could not connect: Server Offline
+2019-07-08 21:39:02,179:__main__: WARNING : Trying to import pygame
+2019-07-08 21:39:02,223:__main__: INFO : Success..
+2019-07-08 21:39:02,223:__main__: INFO : Running game..
+2019-07-08 21:39:03,594:__main__: INFO : Profile successfully created!
+2019-07-08 21:39:07,117:__main__: ERROR : Could not connect: Server Offline
+2019-07-08 21:39:14,602:__main__: ERROR : Could not connect: Server Offline
+2019-07-08 21:39:16,643:__main__: ERROR : Could not connect: Server Offline
+2019-07-08 21:39:22,282:__main__: ERROR : Could not connect: Server Offline
+2019-07-12 20:59:56,708:__main__: WARNING : Trying to import pygame
+2019-07-12 21:00:01,714:__main__: INFO : Success..
+2019-07-12 21:00:01,714:__main__: INFO : Running game..
+2019-07-12 21:00:03,737:__main__: INFO : Profile successfully created!
+2019-07-12 21:00:11,772:__main__: ERROR : Could not connect: Server Offline
+2019-07-12 21:00:14,611:__main__: ERROR : Could not connect: Server Offline
+2019-07-12 21:06:41,078:__main__: WARNING : Trying to import pygame
+2019-07-12 21:06:42,944:__main__: INFO : Success..
+2019-07-12 21:06:42,945:__main__: INFO : Running game..
+2019-07-12 21:06:44,903:__main__: INFO : Profile successfully created!
+2019-07-12 21:07:56,496:__main__: WARNING : Trying to import pygame
+2019-07-12 21:07:56,498:__main__: INFO : Pygame not installed
+2019-07-12 21:07:59,621:__main__: INFO : Pygame library required to play game. Exiting...
+2019-07-12 21:08:39,020:__main__: WARNING : Trying to import pygame
+2019-07-12 21:08:42,169:__main__: INFO : Success..
+2019-07-12 21:08:42,170:__main__: INFO : Running game..
+2019-07-12 21:08:44,080:__main__: INFO : Profile successfully created!
+2019-07-12 21:08:47,025:__main__: ERROR : Could not connect: Server Offline
+2019-07-12 21:08:53,377:__main__: ERROR : Could not connect: Server Offline
+2019-07-12 21:09:07,681:__main__: WARNING : Trying to import pygame
+2019-07-12 21:09:07,747:__main__: INFO : Success..
+2019-07-12 21:09:07,747:__main__: INFO : Running game..
+2019-07-12 21:09:09,025:__main__: INFO : Profile successfully created!
+2019-07-12 21:10:27,014:__main__: ERROR : Could not connect: Server Offline
+2019-07-13 22:08:10,056:__main__: WARNING : Trying to import pygame
+2019-07-13 22:08:10,224:__main__: INFO : Success..
+2019-07-13 22:08:10,225:__main__: INFO : Running game..
+2019-07-13 22:08:32,027:__main__: INFO : Profile successfully created!
+2019-07-13 23:13:14,107:__main__: WARNING : Trying to import pygame
+2019-07-13 23:13:14,291:__main__: INFO : Success..
+2019-07-13 23:13:14,292:__main__: INFO : Running game..
+2019-07-13 23:13:16,420:__main__: INFO : Profile successfully created!
+2019-07-13 23:13:19,807:__main__: ERROR : Could not connect: Server Offline
+2019-07-13 23:13:29,291:__main__: ERROR : Could not connect: Server Offline
+2019-07-13 23:13:34,870:__main__: ERROR : Could not connect: Server Offline
+2019-07-13 23:13:51,997:__main__: WARNING : Trying to import pygame
+2019-07-13 23:13:52,119:__main__: INFO : Success..
+2019-07-13 23:13:52,120:__main__: INFO : Running game..
+2019-07-13 23:13:53,261:__main__: INFO : Profile successfully created!
+2019-07-13 23:14:46,274:__main__: ERROR : Could not connect: Server Offline
+2019-07-13 23:51:53,981:__main__: WARNING : Trying to import pygame
+2019-07-13 23:51:54,030:__main__: INFO : Success..
+2019-07-13 23:51:54,030:__main__: INFO : Running game..
+2019-07-13 23:52:15,016:__main__: WARNING : Trying to import pygame
+2019-07-13 23:52:15,017:__main__: INFO : Pygame not installed
+2019-07-13 23:52:29,031:__main__: INFO : Trying to install pygame via pip
+2019-07-13 23:52:32,545:__main__: WARNING : Trying to import pygame
+2019-07-13 23:52:32,547:__main__: INFO : Pygame not installed
+2019-07-13 23:53:10,662:__main__: WARNING : Trying to import pygame
+2019-07-13 23:53:10,664:__main__: INFO : Pygame not installed
+2019-07-13 23:53:33,253:__main__: WARNING : Trying to import pygame
+2019-07-13 23:53:33,254:__main__: INFO : Pygame not installed
+2019-07-13 23:53:35,919:__main__: INFO : Pygame library required to play game. Exiting...
+2019-07-14 00:46:54,796:__main__: WARNING : Trying to import pygame
+2019-07-14 00:46:54,888:__main__: INFO : Success..
+2019-07-14 00:46:54,889:__main__: INFO : Running game..
+2019-07-14 00:46:56,903:__main__: INFO : Profile successfully created!
+2019-07-14 00:48:50,633:__main__: WARNING : Trying to import pygame
+2019-07-14 00:48:50,633:__main__: INFO : Pygame not installed
+2019-07-14 00:49:14,648:__main__: WARNING : Trying to import pygame
+2019-07-14 00:49:15,920:__main__: INFO : Success..
+2019-07-14 00:49:15,920:__main__: INFO : Running game..
+2019-07-14 00:49:19,663:__main__: INFO : Profile successfully created!
+2019-07-14 00:49:36,143:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 00:49:55,197:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:01:00,069:__main__: WARNING : Trying to import pygame
+2019-07-14 12:01:00,116:__main__: INFO : Success..
+2019-07-14 12:01:00,116:__main__: INFO : Running game..
+2019-07-14 12:01:03,120:__main__: INFO : Profile successfully created!
+2019-07-14 12:06:58,656:__main__: WARNING : Trying to import pygame
+2019-07-14 12:07:01,387:__main__: INFO : Success..
+2019-07-14 12:07:01,388:__main__: INFO : Running game..
+2019-07-14 12:07:02,708:__main__: INFO : Profile successfully created!
+2019-07-14 12:07:40,818:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:08:22,704:__main__: WARNING : Trying to import pygame
+2019-07-14 12:08:22,887:__main__: INFO : Success..
+2019-07-14 12:08:22,888:__main__: INFO : Running game..
+2019-07-14 12:08:24,765:__main__: INFO : Profile successfully created!
+2019-07-14 12:09:34,476:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:12:24,711:__main__: WARNING : Trying to import pygame
+2019-07-14 12:12:24,833:__main__: INFO : Success..
+2019-07-14 12:12:24,834:__main__: INFO : Running game..
+2019-07-14 12:12:25,929:__main__: INFO : Profile successfully created!
+2019-07-14 12:14:29,657:__main__: WARNING : Trying to import pygame
+2019-07-14 12:14:29,764:__main__: INFO : Success..
+2019-07-14 12:14:29,765:__main__: INFO : Running game..
+2019-07-14 12:14:31,059:__main__: INFO : Profile successfully created!
+2019-07-14 12:16:22,406:__main__: WARNING : Trying to import pygame
+2019-07-14 12:16:22,452:__main__: INFO : Success..
+2019-07-14 12:16:22,453:__main__: INFO : Running game..
+2019-07-14 12:16:23,434:__main__: INFO : Profile successfully created!
+2019-07-14 12:16:47,778:__main__: WARNING : Trying to import pygame
+2019-07-14 12:16:47,862:__main__: INFO : Success..
+2019-07-14 12:16:47,863:__main__: INFO : Running game..
+2019-07-14 12:16:48,722:__main__: INFO : Profile successfully created!
+2019-07-14 12:24:57,286:__main__: WARNING : Trying to import pygame
+2019-07-14 12:24:57,469:__main__: INFO : Success..
+2019-07-14 12:24:57,470:__main__: INFO : Running game..
+2019-07-14 12:24:58,326:__main__: INFO : Profile successfully created!
+2019-07-14 12:26:43,923:__main__: WARNING : Trying to import pygame
+2019-07-14 12:26:43,970:__main__: INFO : Success..
+2019-07-14 12:26:43,970:__main__: INFO : Running game..
+2019-07-14 12:26:45,146:__main__: INFO : Profile successfully created!
+2019-07-14 12:26:49,681:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:26:50,622:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:26:58,319:__main__: WARNING : Trying to import pygame
+2019-07-14 12:26:58,372:__main__: INFO : Success..
+2019-07-14 12:26:58,373:__main__: INFO : Running game..
+2019-07-14 12:26:59,631:__main__: INFO : Profile successfully created!
+2019-07-14 12:27:11,789:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:15,873:__main__: WARNING : Trying to import pygame
+2019-07-14 12:27:16,026:__main__: INFO : Success..
+2019-07-14 12:27:16,027:__main__: INFO : Running game..
+2019-07-14 12:27:17,902:__main__: INFO : Profile successfully created!
+2019-07-14 12:27:22,951:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:23,584:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:24,003:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:24,161:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:24,314:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:27:24,452:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 12:29:49,505:__main__: WARNING : Trying to import pygame
+2019-07-14 12:29:49,549:__main__: INFO : Success..
+2019-07-14 12:29:49,550:__main__: INFO : Running game..
+2019-07-14 12:29:51,404:__main__: INFO : Profile successfully created!
+2019-07-14 12:29:52,259:__main__: INFO : No IP specified. Defaulting to localhost...
+2019-07-14 12:29:53,998:__main__: INFO : No port specified. Default port: 5555
+2019-07-14 12:29:57,729:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 14:39:04,963:__main__: WARNING : Trying to import pygame
+2019-07-14 14:39:06,260:__main__: INFO : Success..
+2019-07-14 14:39:06,260:__main__: INFO : Running game..
+2019-07-14 14:39:07,837:__main__: INFO : Profile successfully created!

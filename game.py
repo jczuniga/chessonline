@@ -85,7 +85,7 @@ turn = "w"
 # Rendering is defined by RGB color picker
 #   i.e: White (255,255,255)
 
-def menu_screen(win, name):
+def menu_screen(win, name, config):
     global bo, chessbg
     run = True
     offline = False
@@ -110,7 +110,7 @@ def menu_screen(win, name):
             if event.type == pygame.MOUSEBUTTONDOWN:
                 offline = False
                 try:
-                    bo = connect()
+                    bo = connect(config)
                     run = False
                     main()
                     break
@@ -122,8 +122,23 @@ def menu_screen(win, name):
 '''
 Pygame UI Rendering configuration
     In full accordance with pygame code conventions
-        w
 '''
+
+# Create configuration for connection
+
+
+def createConnectionConfig():
+    connectionConfig = {}
+    hostAddr = input("Enter server IP to connect to: ")
+    connectionConfig['hostIp'] = hostAddr
+    if not hostAddr:
+        log.info("No IP specified. Defaulting to localhost...")
+    portNo = input("Port number: ")
+    if not portNo:
+        log.info("No port specified. Default port: 5555")
+        portNo = None
+    else:
+        connectionConfig['port'] = int(portNo) if portNo else None
 
 
 def redraw_gameWindow(win, bo, p1, p2, color, ready):
@@ -226,9 +241,9 @@ def click(pos):
 # Client connect
 
 
-def connect():
+def connect(connection_config):
     global n
-    n = Network()
+    n = Network(**connection_config)
     return n.board
 
 # Main
@@ -317,8 +332,9 @@ def main():
 if __name__ == '__main__':
     name = input("Please type your name: ")
     log.info("Profile successfully created!")
+    config = createConnectionConfig()
     width = 750  # log-in UI display width
     height = 750  # log-in UI display height
     win = pygame.display.set_mode((width, height))
     pygame.display.set_caption("Chess Game")
-    menu_screen(win, name)
+    menu_screen(win, name, config)

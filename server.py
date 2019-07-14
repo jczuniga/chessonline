@@ -2,6 +2,7 @@ from _thread import start_new_thread
 from board import Board
 import logging
 
+import random
 import os
 import pickle
 import time
@@ -28,11 +29,15 @@ logging.basicConfig(level=logging.DEBUG,
 
 log = logging.getLogger(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # TCP Connection
 
+'''
+Socket instance
+'''
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # TCP Connection
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # TCP socket conn config
 # server, port numbers
-server = "localhost"
-port = 5555
+server = "169.254.211.43"
+port = 50056
 
 server_ip = socket.gethostbyname(server)
 
@@ -213,6 +218,7 @@ def threaded_client(conn, game, spec=False):
 
 while True:
     read_specs()
+    time.sleep(random.randint(3, 5))
     if connections < 6:
         conn, addr = s.accept()
         spec = False

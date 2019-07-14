@@ -4,10 +4,10 @@ import time
 
 
 class Network(object):
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.host = "localhost"
-        self.port = 5555
+        self.host = kwargs.get("hostIp", "localhost")
+        self.port = kwargs.get("port", 5555)
         self.addr = (self.host, self.port)
         self.board = self.connect()
         self.board = pickle.loads(self.board)
