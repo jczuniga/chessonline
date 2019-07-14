@@ -140,6 +140,8 @@ def createConnectionConfig():
     else:
         connectionConfig['port'] = int(portNo) if portNo else None
 
+    return connectionConfig
+
 
 def redraw_gameWindow(win, bo, p1, p2, color, ready):
     win.blit(board, (0, 0))
