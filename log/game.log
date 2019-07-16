@@ -387,3 +387,46 @@
 2019-07-14 14:39:06,260:__main__: INFO : Success..
 2019-07-14 14:39:06,260:__main__: INFO : Running game..
 2019-07-14 14:39:07,837:__main__: INFO : Profile successfully created!
+2019-07-14 15:30:50,820:__main__: WARNING : Trying to import pygame
+2019-07-14 15:30:50,867:__main__: INFO : Success..
+2019-07-14 15:30:50,867:__main__: INFO : Running game..
+2019-07-14 15:30:54,320:__main__: INFO : Profile successfully created!
+2019-07-14 15:32:39,727:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 15:32:53,457:__main__: WARNING : Trying to import pygame
+2019-07-14 15:32:53,504:__main__: INFO : Success..
+2019-07-14 15:32:53,504:__main__: INFO : Running game..
+2019-07-14 15:32:57,316:__main__: INFO : Profile successfully created!
+2019-07-14 15:36:17,007:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 15:37:23,946:__main__: WARNING : Trying to import pygame
+2019-07-14 15:37:23,992:__main__: INFO : Success..
+2019-07-14 15:37:23,992:__main__: INFO : Running game..
+2019-07-14 15:37:30,481:__main__: INFO : Profile successfully created!
+2019-07-14 15:37:34,305:__main__: INFO : No port specified. Default port: 5555
+2019-07-14 15:37:37,258:__main__: WARNING : Trying to import pygame
+2019-07-14 15:37:37,300:__main__: INFO : Success..
+2019-07-14 15:37:37,301:__main__: INFO : Running game..
+2019-07-14 15:37:38,619:__main__: INFO : Profile successfully created!
+2019-07-14 23:45:14,019:__main__: WARNING : Trying to import pygame
+2019-07-14 23:45:16,222:__main__: INFO : Success..
+2019-07-14 23:45:16,222:__main__: INFO : Running game..
+2019-07-14 23:45:18,131:__main__: INFO : Profile successfully created!
+2019-07-14 23:45:19,655:__main__: INFO : No IP specified. Defaulting to localhost...
+2019-07-14 23:45:20,129:__main__: INFO : No port specified. Default port: 5555
+2019-07-14 23:45:25,480:__main__: ERROR : Could not connect: Server Offline
+2019-07-14 23:49:11,397:__main__: WARNING : Trying to import pygame
+2019-07-14 23:49:11,442:__main__: INFO : Success..
+2019-07-14 23:49:11,442:__main__: INFO : Running game..
+2019-07-14 23:49:12,521:__main__: INFO : Profile successfully created!
+2019-07-14 23:49:13,022:__main__: INFO : No IP specified. Defaulting to localhost...
+2019-07-14 23:49:13,437:__main__: INFO : No port specified. Default port: 5555
+2019-07-14 23:49:15,246:__main__: ERROR : Could not connect: Server Offline
+2019-07-16 16:33:31,559:__main__: WARNING : Trying to import pygame
+2019-07-16 16:33:35,108:__main__: INFO : Success..
+2019-07-16 16:33:35,109:__main__: INFO : Running game..
+2019-07-16 16:33:40,721:__main__: INFO : Profile successfully created!
+2019-07-16 16:33:43,586:__main__: INFO : No IP specified. Defaulting to localhost...
+2019-07-16 16:33:45,151:__main__: INFO : No port specified. Default port: 5555
+2019-07-16 16:37:48,360:__main__: WARNING : Trying to import pygame
+2019-07-16 16:37:48,405:__main__: INFO : Success..
+2019-07-16 16:37:48,405:__main__: INFO : Running game..
+2019-07-16 16:37:49,876:__main__: INFO : Profile successfully created!

@@ -42,3 +42,57 @@
 2019-07-14 12:12:44,364:__main__: INFO : [DISCONNECT] Player JC left game 0
 2019-07-14 15:09:15,473:__main__: INFO : Waiting for a connection...
 2019-07-14 15:12:33,156:__main__: INFO : Waiting for a connection...
+2019-07-14 15:24:57,102:__main__: INFO : Waiting for a connection...
+2019-07-14 15:25:43,837:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:25:43,837:__main__: INFO : [CONNECT] Received connection from 192.168.254.104:56302
+2019-07-14 15:25:43,837:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-14 15:25:43,837:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:26:18,937:__main__: INFO : [RESULT] Player b won in game 0
+2019-07-14 15:26:21,984:__main__: INFO : Game 0 ended
+2019-07-14 15:26:21,984:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-14 15:29:29,344:__main__: INFO : Waiting for a connection...
+2019-07-14 15:30:05,553:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:30:05,554:__main__: INFO : [CONNECT] Received connection from 192.168.254.104:56303
+2019-07-14 15:30:05,555:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-14 15:30:05,556:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:31:04,348:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:31:04,349:__main__: INFO : [CONNECT] Received connection from 192.168.254.103:58402
+2019-07-14 15:31:04,349:__main__: INFO : [GAME_INFO] Number of Connections: 2
+2019-07-14 15:31:04,350:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:32:36,679:__main__: INFO : [RESULT] Player w won in game 0
+2019-07-14 15:32:39,043:__main__: INFO : Game 0 ended
+2019-07-14 15:32:39,044:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-14 15:32:39,728:__main__: INFO : [DISCONNECT] Player Daboy left game 0
+2019-07-14 15:33:21,988:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:33:21,989:__main__: INFO : [CONNECT] Received connection from 192.168.254.104:56306
+2019-07-14 15:33:21,993:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-14 15:33:21,993:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:33:26,996:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:33:26,997:__main__: INFO : [CONNECT] Received connection from 192.168.254.103:58406
+2019-07-14 15:33:26,999:__main__: INFO : [GAME_INFO] Number of Connections: 2
+2019-07-14 15:33:27,000:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:34:34,535:__main__: ERROR : 'Pawn' object has no attribute 'moved'
+2019-07-14 15:36:12,906:__main__: INFO : Game 0 ended
+2019-07-14 15:36:12,906:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-14 15:36:13,969:__main__: INFO : [RESULT] Player w won in game 0
+2019-07-14 15:36:13,970:__main__: INFO : [DISCONNECT] Player Daboy left game 0
+2019-07-14 15:37:46,523:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:37:46,523:__main__: INFO : [CONNECT] Received connection from 192.168.254.103:58416
+2019-07-14 15:37:46,524:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-14 15:37:46,524:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:38:05,673:__main__: INFO : [CONNECT] New connection
+2019-07-14 15:38:05,674:__main__: INFO : [CONNECT] Received connection from 192.168.254.104:56310
+2019-07-14 15:38:05,675:__main__: INFO : [GAME_INFO] Number of Connections: 2
+2019-07-14 15:38:05,675:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-14 15:41:33,532:__main__: INFO : Game 0 ended
+2019-07-14 15:41:33,534:__main__: INFO : [DISCONNECT] Player JC left game 0
+2019-07-14 15:41:33,710:__main__: INFO : [DISCONNECT] Player Daboy left game 0
+2019-07-14 23:49:00,813:__main__: INFO : Waiting for a connection...
+2019-07-16 16:37:37,528:__main__: INFO : Waiting for a connection...
+2019-07-16 16:37:56,051:__main__: INFO : [CONNECT] New connection
+2019-07-16 16:37:56,051:__main__: INFO : [CONNECT] Received connection from 127.0.0.1:51390
+2019-07-16 16:37:56,052:__main__: INFO : [GAME_INFO] Number of Connections: 1
+2019-07-16 16:37:56,052:__main__: INFO : [GAME_INFO] Number of Games: 1
+2019-07-16 16:39:42,119:__main__: INFO : [RESULT] Player b won in game 0
+2019-07-16 16:39:43,770:__main__: INFO : Game 0 ended
+2019-07-16 16:39:43,795:__main__: INFO : [DISCONNECT] Player JC left game 0

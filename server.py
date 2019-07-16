@@ -36,8 +36,8 @@ Socket instance
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # TCP Connection
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # TCP socket conn config
 # server, port numbers
-server = "192.168.254.103"
-port = 50056
+server = "localhost"
+port = 5555
 
 server_ip = socket.gethostbyname(server)
 
@@ -199,7 +199,7 @@ def threaded_client(conn, game, spec=False):
                             log.info("[SPECTATOR] Moved Games back")
                             game_ind -= 1
                             if game_ind < 0:
-                                game_ind = len(available_games) -1
+                                game_ind = len(available_games) - 1
 
                         bo = games[available_games[game_ind]]
                     except Exception:

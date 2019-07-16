@@ -136,7 +136,6 @@ def createConnectionConfig():
     portNo = input("Port number: ")
     if not portNo:
         log.info("No port specified. Default port: 5555")
-        portNo = None
     else:
         connectionConfig['port'] = int(portNo) if portNo else None
 
